@@ -17,6 +17,7 @@
 </head>
 
 <body>
+<!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -33,7 +34,9 @@
             </div>
         </div>
     </nav>
+<!-- END Navbar -->
 
+<!-- Header-->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -46,8 +49,11 @@
             </div>
         </div>
     </header>
+<!-- END Header-->
 
+<!-- Container -->
     <div class="container">
+        <!-- Breadcrumb -->
         <div class="row">
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
@@ -58,7 +64,9 @@
                <hr>
             </div>
         </div>
+        <!-- END Breadcrumb -->
 
+        <!-- Local Info -->
         <div class="row row-content">
            <div class="col-12">
               <h3>Location Information</h3>
@@ -86,11 +94,13 @@
                 </div>
             </div>
         </div>
+        <!-- END Local Info -->
 
+        <!-- Feedback -->
         <div class="row row-content">
-           <div class="col-12">
+        <div class="col-12">
               <h3>Send us your Feedback</h3>
-           </div>
+        </div>
             <div class="col-12 col-md-9">
                 <form>
                     <div class="form-group row">
@@ -98,14 +108,15 @@
                         <div class="col-md-10">
                             <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
                         </div>
-                    </div>
+                    </div><!-- .form-group Firstname-->
+
                     <div class="form-group row">
                         <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
                         </div>
-                    </div>
-
+                    </div><!-- .form-group Lastname-->
+                   
                      <div class="form-group row">
                         <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
                         <div class="col-5 col-md-3">
@@ -114,13 +125,15 @@
                         <div class="col-7 col-md-7">
                             <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
                         </div>
-                    </div>
+                    </div><!-- .form-group Tel -->
+                   
                     <div class="form-group row">
                         <label for="emailid" class="col-12 col-md-2 col-form-label">Email</label>
                         <div class="col-md-10">
                             <input type="emailid" class="form-control" id="emailid" name="emailid" placeholder="Email">
                         </div>
-                    </div>
+                    </div><!-- .form-group Email-->
+                    
                     <div class="form-group row">
                         <div class="col-md-6 offset-md-2">
                             <div class="form-check">
@@ -128,39 +141,39 @@
                                 <label class="form-check-label" for="approve">
                                     <strong>May we contact you?</strong>
                                 </label>
-                                
                             </div>
                         </div>
                         <div class="col-md-3 offset-md-1">
-                            <select class="form-control">
+                            <select class="form-control custom-select">
                                 <option>Tel.</option>
                                 <option>Email</option>
                             </select>
-                            
                         </div>
-                    </div>
+                    </div><!-- .form-group -->
+                    
                     <div class="form-group row"> 
-                        <label for="feedback" class="col-12 col-md-2 col-form-label">Your Feedback</label>
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
                         <div class="col-md-10">
                             <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
                         </div>
-                    </div>
+                    </div><!-- .form-group Feedback-->
+
+                    
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
                            <button type="submit" class="btn btn-primary">
                                Send Feedback
                            </button>
                         </div>
-                    </div>
-
+                    </div><!-- .form-group Submit_btn -->
                 </form>
-            </div>
-             <div class="col-12 col-md">
-            </div>
-       </div>
+                
+            </div><!-- .col-12 col-md-9 -->
+       <!-- ???  <div class="col-12 col-md"></div> -->
+       </div><!-- .Row Content -->
+    </div><!-- .Container -->
 
-    </div>
-
+<!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">             
